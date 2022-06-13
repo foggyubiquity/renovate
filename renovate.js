@@ -1,6 +1,6 @@
 module.exports = {
 	autodiscover: true,
-  autodiscoverFilter: 'containizen',
+  autodiscoverFilter: '/containizen/',
   dryRun: 'full',
   enabledManagers: ['github-actions'],
   gitAuthor: 'Renovate by Synthesize <synthesize@foggyubiquity.com>',
