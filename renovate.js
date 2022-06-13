@@ -1,4 +1,5 @@
 module.exports = {
+	autodiscover: true,
   autodiscoverFilter: 'containizen',
   dryRun: 'full',
   enabledManagers: ['github-actions'],
