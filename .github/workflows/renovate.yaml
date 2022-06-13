@@ -1,5 +1,8 @@
 name: renovate
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '0/15 * * * *'
 jobs:
